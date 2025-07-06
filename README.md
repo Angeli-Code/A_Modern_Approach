@@ -5,9 +5,9 @@ This repo will consist of my notes and exercises from the book
 
 ## Coding Style
 
-I will strictly follow what is is taught in every chapter. I 
-think that the author might have strategically structured what
-concepts to teach and when.
+I will strictly follow what is is taught in every chapter. I am aware of
+unsafe functions in C but for the sake of following the book, I will adhere
+to what is taught
 
 ## Author
 
