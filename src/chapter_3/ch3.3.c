@@ -50,7 +50,5 @@ int main(void)
 	printf("Check Digit: ");	
 	scanf("%d", &check_digit);
 
-	/* TODO: Create the output for this */
-
 	return 0;
 }
