@@ -1,3 +1,4 @@
+#include <stdio.h>
 
 /* Chapter 3 Exercise 3
  * --------------------
@@ -33,7 +34,7 @@ int main(void)
 	int check_digit;
 
 	printf("Enter ISBN: ");
-	scanf("%d-%d-%d-%d-%d", &isbn1, &isbn2, &isbn3, &isbn4, &isbn5);
+	scanf("%d-%d-%d-%d-%d", &isbn_1, &isbn_2, &isbn_3, &isbn_4, &isbn_5);
 
 	printf("GSI Prefix: ");
 	scanf("%d", &prefix);
@@ -45,10 +46,12 @@ int main(void)
 	scanf("%d", &p_code);
 
 	printf("Item Number: ");
-	scanf("%d", &item_number);
+	scanf("%d", &item_num);
 
 	printf("Check Digit: ");	
 	scanf("%d", &check_digit);
+
+	/* Nothing happens with the input so maybe do something at some point? */
 
 	return 0;
 }
